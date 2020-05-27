@@ -40,7 +40,8 @@ namespace UniqueEmails
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // Disabled https for this coding test
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
